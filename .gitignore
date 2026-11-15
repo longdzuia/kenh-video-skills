@@ -1,0 +1,28 @@
+# Repo này CHỈ chứa skill, hướng dẫn, kinh nghiệm. Không đưa output lên.
+*.mp4
+*.mov
+*.webm
+*.mp3
+*.wav
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.psd
+*.onnx
+*.bin
+renders/
+snapshots/
+assets/
+kho/
+.work/
+.hyperframes/
+node_modules/
+venv/
+.venv/
+__pycache__/
+# Bí mật
+.env
+.env.*
+*.key

@@ -1,0 +1,13 @@
+{
+  "name": "kenh-video",
+  "longdzuia": { "name": "longdzuia" },
+  "metadata": { "description": "Skill và kinh nghiệm dựng video HyperFrames." },
+  "plugins": [
+    {
+      "name": "kenh-video-skills",
+      "source": "./",
+      "description": "minh-y, nhip-hf và các hướng dẫn đi kèm."
+    }
+  ]
+}
+

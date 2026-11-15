@@ -1,0 +1,8 @@
+// ===== 1. Ghép nhân vật vào cảnh (ảnh 1: phông, ảnh 2: tờ gốc nhân vật) =====
+Use the first attached image as the scene and keep it exactly as it is: the same camera, the same colors and every object in the same place. Place the character from the second attached image [VỊ TRÍ VÀ HÀNH ĐỘNG], drawn in exactly the same crude doodle style as the second image: the same face, the same hair, the same clothes and colors. [ĐỒ TRÊN TAY: nói rõ đồ nào biến mất nếu tư thế cần hai tay]. [CHỖ BỊ CHE: vd his legs are partly hidden behind the front of the chair]. [ÁNH SÁNG CẢNH: vd The purple stage light gives his skin and clothes a slight flat purple tint]. Same line weight as the scene. Do not change anything else.
+
+// ===== 2. Sửa tư thế (đính TẤM GỐC có nhân vật; mọi tư thế đều sửa từ cùng tấm gốc, không sửa nối tiếp) =====
+Edit the attached image. Keep everything exactly the same: the [CẢNH], the camera, the colors, every object, the character's size and his position, and the light tint on him. Change only his pose and expression: [TƯ THẾ VÀ BIỂU CẢM]. He is not holding [ĐỒ ĐÃ BỎ]. Same crude doodle line weight as the rest of the image. Do not change anything else.
+
+// ===== 3. Thay người trong cảnh đã có (ảnh 1: tấm cảnh có nhân vật cũ, ảnh 2: tờ gốc người mới) =====
+Edit the first attached image. Keep everything exactly the same: the [CẢNH], the camera, the colors, every object, the character's pose, size, position and expression, and the light tint on him. Replace only the character's drawing with the character from the second attached image: the same human face with jaw, ears, nose and eyebrows, the same hair, the same clothes, drawn in the same crude doodle style. Do not change anything else.

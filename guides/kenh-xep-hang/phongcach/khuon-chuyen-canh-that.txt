@@ -1,0 +1,8 @@
+// Đính ảnh chụp thật làm ảnh 1, tấm giảng đường (phongcach\neo\nen-giang-duong.png) làm ảnh 2. Khung 16:9.
+// Thay [CHỮ KÝ NƠI CHỐN] bằng những thứ người quen chỗ đó nhìn lướt là nhận ra, kể cả màu, ánh sáng và chữ (chữ đưa nguyên văn trong ngoặc kép).
+// Ảnh không có người thì bỏ câu "Remove the ... people".
+
+Redraw the first attached photo as a quick, deliberately crude hand-drawn cartoon background, as if an amateur Vietnamese YouTube storyteller traced it fast. The whole image is the drawing itself, not a photo of a screen or any device. Keep the composition, the original colors and every signature element that makes this place recognizable: [CHỮ KÝ NƠI CHỐN]. Remove the people in the photo. Simplify everything else into a few wobbly lines and flat bucket-fill colors. Black lines with uneven pressure, some strokes overshooting, some not fully closed. The dark areas are flat solid color, not heavy scribbled hatching. Light is drawn, not rendered: spotlights, glows and neon become flat bright shapes with simple hand-drawn outlines and a few short radiating lines. No smooth gradients, no bloom, no 3D rendering, no photo texture. No people. Use the second attached image only as a reference for line weight, line wobble and level of detail; do not copy its room, desks, colors or composition.
+
+// Ví dụ đã đạt (sân khấu "Ai là triệu phú"), phần chữ ký nơi chốn:
+// the deep purple and blue darkness of the studio, the two tall bright red glowing arches, the white curved stand in the center on a round raised platform, the two tall chairs facing each other, the cones of pale purple and bluish white spotlight beams coming down from above, and a large round glowing emblem behind the center with the title "AI LÀ TRIỆU PHÚ" hand-lettered around it
