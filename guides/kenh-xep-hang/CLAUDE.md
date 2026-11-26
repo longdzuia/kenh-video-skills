@@ -34,6 +34,14 @@ Nếu luật ở đây mâu thuẫn với xưởng gốc: điểm nào thuộc n
 
 - Video YouTube xếp hạng các thứ theo hạng (SS, S, A…) hoặc theo một tiêu chí, đề kiến thức và đời sống, giọng vui. Cảm hứng từ dòng kênh "Những…" như Vui Vẻ, biến thành xếp hạng.
 - Đề tập đầu: xếp hạng các kiểu thành viên trong nhóm thảo luận, mỗi kiểu một biệt danh châm biếm.
+  - **Tiêu chí & Bảng Tier mới Tập 1 (rút gọn 2 chữ, đo trực diện "nó gánh hay nó báo", cập nhật 2026-11-25):**
+    - **S — Cứu tinh**: độc tôn cho *Người hùng bục giảng*
+    - **A — Trụ cột**: *Con nhà người ta*, *Chiến thần Canva*, *Đấng cứu thế*
+    - **B — Được việc**: *Hệ gia trưởng*, *Nước đến chân mới nhảy*
+    - **C — Báo thủ**: *Nô lệ ChatGPT*, *Người tối cổ*
+    - **D — Ăn theo**: *Hoàn cảnh khó khăn*, *Nhân vật hư cấu*
+    - **Ngoại hạng ẩn — Khổ chủ** (giấu tới cuối bài): *Nhóm trưởng & Thuyết trình bất đắc dĩ*
+  - **Chiến lược test cuốn chiếu (2026-11-25):** Tạm gác bản nháp *Đứa lặn mất tăm* cũ (`thu-lan-mat-tam-v2\`). Dựng phác hoàn chỉnh 1 món đinh trước để test cảm giác nhịp, khoảng lặng, thoại phụ chen ngang và cú lật bảng tier; món test đầu tiên là **#3 Hệ gia trưởng** (`thu-he-gia-truong\`, ngay sau khi *#1 Nô lệ ChatGPT* đã ở ô C và *#2 Con nhà người ta* vừa đậu ô A).
 - Khung 16:9, 1920×1080.
 - **Bảng tier là ngôi nhà** của kênh: video quay về nó nhiều nhất (mục 4).
 - **Mèo xám là nhân vật kênh** (mục 5).
@@ -44,10 +52,27 @@ Nếu luật ở đây mâu thuẫn với xưởng gốc: điểm nào thuộc n
 Sáu chặng như xưởng gốc mục 2, mỗi chặng xong dừng chờ chủ kênh duyệt. Chỗ khác:
 
 - **Chặng 0.** Tạo dự án trong `C:\kenh-xep-hang`, không trong xưởng gốc: mở PowerShell ở `C:\kenh-xep-hang`, `npx.cmd hyperframes init <tên-dự-án>`, mẫu Blank. Trong `assets` đặt `giongdoc.mp3`, `kichban.txt`, `mach.txt`, chép `phongcach\style-*.txt` của xưởng này. Chép `bang-tier\bang-tier.js` (khi đã có, mục 4) vào dự án. Đầu mỗi phiên chạy `C:\hyperframestest\cong-cu\hf.cmd may`.
-- **Kịch bản** vẫn qua skill nhip-hf.
+- **Trước chặng 0 có chặng nội dung** (mục 2a): từ ý tưởng ra bảng kịch bản, duyệt xong mới tạo dự án. Kịch bản của xưởng này là bảng kịch bản; cột Lời chép ra `kichban.txt` cho chặng mốc giờ. Khi chủ kênh đưa kịch bản lời viết sẵn thì vẫn qua skill nhip-hf, rồi lên bảng kịch bản từ đó.
 - **Chặng 2 (nguyên liệu).** Claude Code tự viết `VAT-LIEU.md` theo sổ tay này, học cách phân việc của minh-y nhưng theo luật mục 3. Mỗi tờ cần sinh có prompt hoàn chỉnh, **không để sót ngoặc vuông**: ở phiên style ngày 13/11, một prompt còn `[COSTUME]` chưa điền làm Nano Banana tự vẽ cướp biển và Dracula. Ghi rõ ảnh nào đính, theo thứ tự nào.
 - **Chặng 4 (tách nền)** chỉ cần cho thứ đứng trên nền trống hoặc dán lên ảnh thật (mục 3). Cảnh tình huống sinh liền một tấm thì không tách.
 - **Chặng 5–6** như xưởng gốc. Render bằng `hf render`.
+
+## 2a. Chặng nội dung: từ ý tưởng ra bảng kịch bản
+
+Mở ngày 2026-11-16, sau tập 1: đồ họa đạt nhưng nội dung còn nghiêm, vì kịch bản lời viết xong hết rồi mới đem dựng, không có chỗ cho hình, khoảng lặng, meme. Chặng này là **thứ tự cố định và một bộ câu hỏi**, không phải khuôn. Câu trả lời đổi theo từng đề; không rút độ dài, số hạng, vai mèo hay tỉ lệ lời/lặng từ một video mẫu nào.
+
+1. **Danh sách đi trước.** Đề, tiêu chí xếp, các món, chia mấy hạng và tên hạng: do đề quyết. Danh sách là list chủ kênh có sẵn hoặc cùng lên. Chưa đào chất liệu ở bước này.
+2. **Chất liệu đến sau, phục vụ từng món.** Có danh sách rồi mới đào cho từng món: khoảnh khắc ai cũng từng gặp, meme hợp, cảnh thật, con số. Chất liệu làm món sống hơn, không quyết món nào có mặt.
+3. **Chọn cách kể**, bằng câu hỏi:
+   - Cả tập: mèo đóng vai gì (người thuyết trình, người trong cuộc, nạn nhân…)? Tùy đề.
+   - Từng món, nghĩ theo thứ tự: **Thấy gì?** (cảnh làm người xem nhận ra hoặc bật cười) → **Lặng ở đâu, trong lặng có gì?** (hành động, ánh mắt, âm thanh, cú xen; không lặng suông) → **Lời gài gì, châm gì?** Cái hay nằm ở cả ba móc vào nhau. Hình và lặng dẫn, lời đi sau nhưng không tạm bợ: lời vẫn giữ cái châm biếm, cợt nhả của kênh.
+   - Có cần xen gì không (meme, cú đổi style, nhân vật phụ cãi, lạc đề…)? Lấy từ kho đồ nghề `phongcach\kho-do-nghe.md`. Không tập nào bắt buộc có đủ.
+   - **Chủ kênh chốt sau bản thử "Đứa lặn mất tăm" (2026-11-16):** (a) mỗi món **giới thiệu trước, xếp hạng ở cuối** ("tiếp theo chúng ta đến với…", kể đặc điểm, diễn vui, rồi mới đặt lên bảng); (b) món là phần nội dung chính, **lời phải đủ và có cảm xúc**: kể chuyện bằng câu trọn, câu cụt chỉ để chốt; (c) **người xem không phải vừa đọc vừa nghe**: chữ cần đọc (tin nhắn, giấy tờ) thì lời im, hoặc lời đọc đúng chữ đó, và chữ đứng đủ lâu để đọc; (d) **thời gian trong chuyện nhảy thì có câu nói rõ**, không chỉ để màn hình tự đổi.
+   - Soi bảng bằng 7 câu hỏi ở cuối `mau\HOC-TU-VIDEO-MAU.md` (mổ 4 video mẫu, mỗi video có bảng dựng ngược để xem). Câu hỏi, không phải khuôn.
+4. **Bảng kịch bản.** Trang `bang-kich-ban\bang-kich-ban.html` (mở bằng trình duyệt), dữ liệu mỗi dự án ở một file `.js` (cách viết ở đầu `bang-kich-ban\mau-du-lieu.js`). Mỗi dòng một nhịp, cột: **#, giây, Loại** (Lời / Lặng / Xen), **Thấy** (màn hình chiếu gì, mèo làm gì), **Lời** (nguyên văn, ai nói), **Lặng / Xen** (lặng bao lâu và trong đó có gì; gợi ý meme, đổi style, cảnh thật), **Âm**, **Cần** (nguyên liệu có sẵn hay phải sinh). Bảng này là kịch bản: thu giọng đọc cột Lời, dựng phác đọc cả bảng, `VAT-LIEU.md` lấy nguyên liệu từ cột Cần. Đây là chỗ chủ kênh duyệt kỹ nhất, vì sửa ở đây rẻ nhất.
+5. **Dựng phác** bằng HyperFrames với hình tạm (sticker trong kho, khung chữ), theo giây ước của bảng, chưa cần giọng thật, để xem nhịp có ăn không. Ảnh khung của bản phác gắn vào từng dòng bảng (trường `anh`). Ổn rồi mới viết prompt Nano Banana và thu giọng.
+
+Mỗi bước xong dừng chờ chủ kênh duyệt, như sáu chặng. **Kho đồ nghề** lớn dần: mỗi video tham khảo chủ kênh gửi và mỗi tập làm xong thêm vài món vào kho, kèm "dùng khi nào".
 
 ## 3. Luật nhìn
 
@@ -112,6 +137,8 @@ C:\kenh-xep-hang\
     ban-luu\              bản cũ cất nguyên bộ khi đổi chuẩn
     CHANGELOG.md          đổi gì, từ gì sang gì, vì sao, ngày nào
   bang-tier\              trang mẫu bảng tier, sau thêm bang-tier.js
+  bang-kich-ban\          trang xem bảng kịch bản (chặng nội dung, mục 2a)
+  giong-doc\              giọng đọc: VOICESTUDIO.md (mục 10), file đo thử
   kho\                    nguyên liệu dùng lại: nhan-vat\, meo\, nen\, canh\
   mau\                    bài thử đã duyệt (ba tấm "Ai là triệu phú", bản chuyển cảnh B và C)
   <tên-dự-án>\            mỗi video một thư mục, cấu trúc như xưởng gốc mục 7
@@ -124,9 +151,23 @@ C:\kenh-xep-hang\
 - Thumbnail: chưa bàn.
 - Hành vi gạt khỏi bảng của mèo: chưa thử.
 - Skill nguyên liệu riêng cho kênh (bản minh-y của kênh xếp hạng): làm khi đã chạy vài video.
+- Giọng đọc lâu dài: OmniVoice hay VieNeu-TTS hay ElevenLabs, giọng mẫu của chủ kênh (mục 10).
+
+## 10. Giọng đọc
+
+Đọc `giong-doc\VOICESTUDIO.md` trước mọi việc dính tới giọng đọc. File đó là bàn giao phiên nghiên cứu VoiceStudio 16–17/11, gồm: cài đặt và lỗi Smart App Control, giấy phép, chế độ Truyện, thẻ nào chạy ở đâu kèm số đo, cách gọi API cục bộ để Claude tự tạo giọng, và các lựa chọn thay thế. Bốn điều phải nhớ:
+
+- **Mô hình OmniVoice cấm dùng thương mại**, kể cả âm thanh tạo ra. Mua gói Pro không đổi được điều này. Video dùng OmniVoice chỉ đăng khi kênh chưa bật kiếm tiền; trước khi bật phải tắt quảng cáo, đăng lại hoặc ẩn các video đó. Giọng mẫu phải là giọng của chủ kênh hoặc của người đã đồng ý.
+- **Lời đọc làm ở chế độ Truyện**, xuất MP3. Thẻ `[slow]`, `[fast]` chỉ chạy ở chế độ này và đo thấy gần như không tác dụng. Nhanh chậm và cao độ chỉnh lúc dựng, giữ cao độ.
+- **Thẻ cảm xúc** chỉ có 13 thẻ OmniVoice viết đúng y chữ; `[pause …]` chạy mọi nơi.
+- **Card 4 GB chậm:** khoảng 90–180 giây cho một câu ngắn. Mỗi lượt tạo 200–450 ký tự.
 
 ## Nhật ký thay đổi
 
 - 2026-11-14 — Mở xưởng. Sổ tay viết từ phiên nghiên cứu style 13–14/11 trên Claude (bản chuyển giao `_ban-giao-kenh-xep-hang`). Thừa hưởng xưởng gốc bằng cách đọc tại chỗ (mục 0).
 - 2026-11-14 — Mục 4: ghi `bang-tier.js` đã có bản đầu (chưa duyệt) và chỗ để font. Không đổi luật.
+- 2026-11-16 — Thêm mục 2a (chặng nội dung trước chặng 0: danh sách → chất liệu → cách kể → bảng kịch bản → dựng phác), trang `bang-kich-ban\`, kho đồ nghề `phongcach\kho-do-nghe.md`. Lý do: tập 1 đồ họa đạt nhưng nội dung còn nghiêm vì kịch bản lời viết xong mới dựng. Bản trước: `phongcach\ban-luu\2026-11-16_so-tay-truoc-chang-noi-dung\`.
+- 2026-11-16 — Mục 2a bước 3: thêm bốn điểm chủ kênh chốt sau bản thử "Đứa lặn mất tăm" (giới thiệu trước hạng sau, lời đủ và có cảm xúc, không bắt vừa đọc vừa nghe, mốc thời gian nói rõ) và trỏ tới 7 câu hỏi soi bảng ở `mau\HOC-TU-VIDEO-MAU.md`. Lý do: v1 mở bằng hạng, lời cụt, tin nhắn hiện đè lời, thời gian nhảy không báo. Thêm công cụ `bang-kich-ban\dung-nguoc.py`, `boc-loi.py` (dựng bảng ngược từ video mẫu). Bản trước: `phongcach\ban-luu\2026-11-16_so-tay-truoc-hoc-video-mau\`.
+- 2026-11-17 — Thêm mục 10 (Giọng đọc) trỏ tới `giong-doc\VOICESTUDIO.md`, bàn giao phiên nghiên cứu VoiceStudio 16–17/11 (cài đặt, giấy phép OmniVoice cấm thương mại, chế độ Truyện, số đo thẻ tốc độ và kéo chữ, API cục bộ, VieNeu-TTS). Mục 8, 9 thêm dòng theo. Không đổi luật cũ. Bản trước: `phongcach\ban-luu\2026-11-17_ghi-giong-doc\`.
 - 2026-11-15 — `bang-tier\bang-tier.js` thêm tùy chọn `kichThuoc: {w, h}`: bảng đặt trong cảnh con thì truyền vào, để khung đầu tiên khi render nhảy thẳng vào giữa cảnh vẫn vẽ đúng (gặp ở `tap01-nhom-thao-luan` SK5). Không đổi luật. Bản trước: `phongcach\ban-luu\2026-11-15_bang-tier-kich-thuoc\`.
+- 2026-11-25 — Mục 1: cập nhật khung Tập 1 mới (bảng tier 2 chữ đo trực diện "gánh hay báo": S Cứu tinh, A Trụ cột, B Được việc, C Báo thủ, D Ăn theo, ngoại hạng ẩn Khổ chủ) và chiến lược test cuốn chiếu món đinh `#3 Hệ gia trưởng` (tạm gác bản nháp *Đứa lặn mất tăm*). Bản trước: `phongcach\ban-luu\2026-11-25_cap-nhat-tap01-he-gia-truong\`.
